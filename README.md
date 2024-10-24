@@ -45,7 +45,8 @@ node server.js
 Access the API: The application will start on `http://localhost:3000`. You can access the meeting link creation endpoint at `/api/create_meeting_link`.
 
 # API 
-`POST  http://localhost:3000/api/create_meeting_link`
+```POST  http://localhost:3000/api/create_meeting_link```
+
 Request Body:
 
 ```json
