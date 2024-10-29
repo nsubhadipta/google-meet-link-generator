@@ -26,10 +26,10 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to set up and run the project:
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-project-directory>
+   git clone https://github.com/nsubhadipta/google-meet-link-generator.git
+   cd google-meet-link-generator
 Install dependencies:
 
 ```bash
