@@ -29,20 +29,26 @@ Follow these steps to set up and run the project:
 **Clone the repository:**
    ```bash
    git clone https://github.com/nsubhadipta/google-meet-link-generator.git
+
    cd google-meet-link-generator
-Install dependencies:
+```
+**Install dependencies:**
 
 ```bash
 npm install
 ```
-Add your Google service account key: Place your `service-account-key.json` file in the root of your project directory.
+**Add your Google service account key:** 
 
-Run the application:
+Place your `service-account-key.json` file in the root of your project directory.
+
+**Run the application:**
 
 ```bash
 node server.js
 ```
-Access the API: The application will start on `http://localhost:3000`. You can access the meeting link creation endpoint at `/api/create_meeting_link`.
+**Access the API:** 
+
+The application will start on `http://localhost:3000`. You can access the meeting link creation endpoint at `/api/create_meeting_link`.
 
 # API 
 ```POST  http://localhost:3000/api/create_meeting_link```
